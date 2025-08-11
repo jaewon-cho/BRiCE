@@ -30,7 +30,7 @@ source("preprocess.R")<br/>
 #condition: unperturb, perturb<br/>
 
 clonal_seurat_process(user_seurat_object, "user_file_name")<br/>
-
+-This will generate "h5ad" file <br/>
 ##
 BRiCE<br/>
 python: 3.9<br/>
