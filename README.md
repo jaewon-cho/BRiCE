@@ -28,6 +28,9 @@ result[0]<br/>
 rc_umap(adata, "test", "X_umap", need_neighbor = False)<br/>
 res_plot(adata, "test", latent = None)<br/>
 
+<img src="/example_data/test_RC_umap.png" width="600"/>
+<img src="/example_data/test_Res_plot.png" width="600"/>
+
 ##
 adata = sc.read_h5ad("bcr_vaccine_vaccin_cpa_after.h5ad")<br/>
 obj1 = adata[(adata.obs["condition"] == "perturb")]<br/>
@@ -41,4 +44,7 @@ result[0]<br/>
 #0.018688870657997153<br/>
 
 rc_umap(adata, "cpa_perturb_only", "X_umap", need_neighbor = True)<br/>
-res_plot(adata, "cpa_perturb_only", latent = None)<br/><br/><br/>
+res_plot(adata, "cpa_perturb_only", latent = None)<br/>
+
+<img src="/example_data/cpa_perturb_only_RC_umap.png" width="600"/>
+<img src="/example_data/cpa_perturb_only_Res_plot.png" width="600"/>
