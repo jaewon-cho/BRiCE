@@ -14,6 +14,37 @@ manuscrip_methods: scripts used for the manuscript<br/>
 ##
 Tutorial<br/><br/>
 
+Preprocess<br/>
+R
+#library(Seurat)
+#library(SingleCellExperiment)
+#library(zellkonverter)
+
+source("preprocess.R")
+
+##
+BRiCE<br/>
+python: 3.9<br/>
+
+import sys, os<br/>
+import scanpy as sc<br/>
+import pandas as pd<br/>
+import numpy as np<br/>
+import scipy.sparse as sp<br/>
+from scipy.stats import spearmanr<br/>
+import argparse<br/>
+from math import log<br/>
+import random<br/>
+import bisect<br/>
+from scipy.stats import wilcoxon<br/>
+import seaborn as sns<br/>
+import matplotlib.pyplot as plt<br/>
+import glob<br/>
+
+sys.path.append("/path/to/performance.py")<br/>
+sys.path.append("/path/to/visualization.py")<br/>
+
+
 adata = sc.read_h5ad("bcr_vaccine_hvg_only.h5ad")<br/>
 obj1 = adata[(adata.obs["condition"] == "perturb")]<br/>
 result = entropy_process(obj1, "expand", latent = None)<br/>
