@@ -15,7 +15,7 @@ manuscrip_methods: scripts used for the manuscript<br/>
 ### Tutorial<br/><br/>
 
 #### Preprocess<br/>
-R
+R<br/>
 #library(Seurat)<br/>
 #library(SingleCellExperiment)<br/>
 #library(zellkonverter)<br/>
@@ -52,6 +52,7 @@ import glob<br/>
 sys.path.append("/path/to/performance.py")<br/>
 sys.path.append("/path/to/visualization.py")<br/>
 
+#### standard scanpy object<br/>
 
 adata = sc.read_h5ad("bcr_vaccine_hvg_only.h5ad")<br/>
 obj1 = adata[(adata.obs["condition"] == "perturb")]<br/>
@@ -71,6 +72,8 @@ res_plot(adata, "test", latent = None)<br/>
 <img src="/example_data/test_Res_plot.png" width="600"/>
 
 ##
+#### CPA object (trained by perturbed sample only) <br/>
+
 adata = sc.read_h5ad("bcr_vaccine_vaccin_cpa_after.h5ad")<br/>
 obj1 = adata[(adata.obs["condition"] == "perturb")]<br/>
 result = entropy_process(obj1, "expand", latent = None)<br/>
