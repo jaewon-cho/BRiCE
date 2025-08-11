@@ -20,7 +20,16 @@ R
 #library(SingleCellExperiment)
 #library(zellkonverter)
 
-source("preprocess.R")
+source("preprocess.R")<br/>
+
+
+#meta information<br/>
+#orig.ident<br/>
+#clonotype<br/>
+#individual<br/>
+#condition: unperturb, perturb<br/>
+
+clonal_seurat_process(user_seurat_object, "user_file_name")<br/>
 
 ##
 BRiCE<br/>
