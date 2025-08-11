@@ -1,27 +1,26 @@
 # BRiCE (Benchmarking RespondIng cells by Clonal Expansion)
-Scripts and tutorial for BRiCE<br/>
+### Scripts and tutorial for BRiCE<br/>
 
 Relevant paper: Benchmarking of predicting the responding cells upon perturbation affecting both gene expression and cellular abundance in scRNA-sequencing <br/>
 
 Citation: not yet<br/>
 
 ##
-Folder description<br/>
+### Folder description<br/>
 BRiCE: contains functions for BRiCE<br/>
 example_data: example_data<br/>
 manuscrip_methods: scripts used for the manuscript<br/>
 
 ##
-Tutorial<br/><br/>
+### Tutorial<br/><br/>
 
-Preprocess<br/>
+#### Preprocess<br/>
 R
 #library(Seurat)
 #library(SingleCellExperiment)
 #library(zellkonverter)
 
 source("preprocess.R")<br/>
-
 
 #meta information<br/>
 #orig.ident<br/>
@@ -30,9 +29,9 @@ source("preprocess.R")<br/>
 #condition: unperturb, perturb<br/>
 
 clonal_seurat_process(user_seurat_object, "user_file_name")<br/>
--This will generate "h5ad" file <br/>
+- This will generate "h5ad" file <br/>
 ##
-BRiCE<br/>
+#### BRiCE<br/>
 python: 3.9<br/>
 
 import sys, os<br/>
