@@ -14,7 +14,7 @@ manuscrip_methods: scripts used for the manuscript<br/>
 ##
 Tutorial<br/><br/>
 
-adata = sc.read_h5ad("bcr_vaccine_vaccin_scapny.h5ad")<br/>
+adata = sc.read_h5ad("bcr_vaccine_hvg_only.h5ad")<br/>
 obj1 = adata[(adata.obs["condition"] == "perturb")]<br/>
 result = entropy_process(obj1, "expand", latent = None)<br/>
 result.mean()<br/>
