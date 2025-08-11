@@ -1,0 +1,30 @@
+conda activate scanpy
+
+./common_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var500
+./common_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var1000
+./common_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var2000
+./common_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var3000
+./common_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var4000
+./common_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var5000
+./common_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var_whole
+
+./exceptional_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ tumor_deg
+./exceptional_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ expand_deg
+./exceptional_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ corr
+
+./common_expand_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var500
+./common_expand_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var1000
+./common_expand_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var2000
+./common_expand_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var3000
+./common_expand_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var4000
+./common_expand_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var5000
+./common_expand_python.py gse236581 tcell_seurat /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var_whole
+
+./common_perturb_only.py gse236581 tcell_rev_scanpy /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var500
+./common_perturb_only.py gse236581 tcell_rev_scanpy /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var1000
+./common_perturb_only.py gse236581 tcell_rev_scanpy /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var2000
+./common_perturb_only.py gse236581 tcell_rev_scanpy /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var3000
+./common_perturb_only.py gse236581 tcell_rev_scanpy /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var4000
+./common_perturb_only.py gse236581 tcell_rev_scanpy /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var5000
+./common_perturb_only.py gse236581 tcell_rev_scanpy /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/ var_whole
+

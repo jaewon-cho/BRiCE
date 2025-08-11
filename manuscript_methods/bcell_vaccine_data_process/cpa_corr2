@@ -1,0 +1,17 @@
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ corr no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ expand_deg no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ perturb_deg no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ var1000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ var2000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ var3000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ var4000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ var5000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ var500 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ var_whole no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ expand_split/var1000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ expand_split/var2000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ expand_split/var3000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ expand_split/var4000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ expand_split/var5000 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ expand_split/var500 no cpa_result
+./clonality_corr2.py bcr_vaccine cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/10x_bcell_vaccin/cpa/ expand_split/var_whole no cpa_result

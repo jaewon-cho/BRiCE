@@ -1,0 +1,17 @@
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ corr no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ expand_deg no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ tumor_deg no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ var1000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ var2000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ var3000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ var4000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ var5000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ var500 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ var_whole no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ expand_split/var1000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ expand_split/var2000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ expand_split/var3000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ expand_split/var4000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ expand_split/var5000 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ expand_split/var500 no scgen_result
+./clonality_corr.py gse236581 scgen /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/scgen/ expand_split/var_whole no scgen_result

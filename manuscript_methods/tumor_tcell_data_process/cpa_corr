@@ -1,0 +1,17 @@
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ corr no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ expand_deg no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ tumor_deg no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ var1000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ var2000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ var3000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ var4000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ var5000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ var500 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ var_whole no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ expand_split/var1000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ expand_split/var2000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ expand_split/var3000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ expand_split/var4000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ expand_split/var5000 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ expand_split/var500 no cpa_result
+./clonality_corr.py gse236581 cpa_after /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cpa/ expand_split/var_whole no cpa_result

@@ -1,0 +1,17 @@
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ corr no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ expand_deg no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ tumor_deg no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ var1000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ var2000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ var3000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ var4000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ var5000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ var500 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ var_whole no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ expand_split/var1000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ expand_split/var2000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ expand_split/var3000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ expand_split/var4000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ expand_split/var5000 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ expand_split/var500 no cinema_result
+./clonality_corr.py gse236581 cinema_de /home/dreadcupper/jaewon/perturb_clonal_method/anaylsis/gse236581/cinema_ot/ expand_split/var_whole no cinema_result
