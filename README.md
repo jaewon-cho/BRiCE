@@ -13,11 +13,11 @@ manuscrip_methods: scripts used for the manuscript<br/>
 
 ##
 ### Tutorial<br/><br/>
-Response Classification (RC): how well the method can distinguish the responding cells against non-responding cells<br/>
-Detail: Normalized Shannon entropy, adapted from BatchBench, was used to distinguish between clonally expanded cells and singlets in perturbed samples. The kNN was calculated for each cell using a predefined neighbor graph (‘distances’ metric from sc.pp.neighbors). Normalized Shannon entropy was calculated for each cell using kNN. A k value of 30 was used for the analysis.
+-Response Classification (RC): how well the method can distinguish the responding cells against non-responding cells<br/>
+Detail: Normalized Shannon entropy, adapted from BatchBench, was used to distinguish between clonally expanded cells and singlets in perturbed samples. The kNN was calculated for each cell using a predefined neighbor graph (‘distances’ metric from sc.pp.neighbors). Normalized Shannon entropy was calculated for each cell using kNN. A k value of 30 was used for the analysis.<br/><br/>
 
-Response effect size (Res): how well the method can quantify the responsiveness<br/>
-Detail: The Res was determined only for clonally expanded cells in the perturbed samples. Average clonality was measured using the clonality from kNN (k = 5) for each cell. Spearman correlation coefficient (SCC) was measured between the clonality of a given cell and the mean clonality from kNN. At least 50 clonally expanded cells were required to measure the Res.
+-Response effect size (Res): how well the method can quantify the responsiveness<br/>
+Detail: The Res was determined only for clonally expanded cells in the perturbed samples. Average clonality was measured using the clonality from kNN (k = 5) for each cell. Spearman correlation coefficient (SCC) was measured between the clonality of a given cell and the mean clonality from kNN. At least 50 clonally expanded cells were required to measure the Res.<br/><br/>
 
 #### Preprocess<br/>
 R<br/>
@@ -54,14 +54,14 @@ import seaborn as sns<br/>
 import matplotlib.pyplot as plt<br/>
 import glob<br/>
 
-sys.path.append("/path/to/performance.py directory")
-sys.path.append("/path/to/visualization.py directory")
+sys.path.append("/path/to/performance.py directory")<br/>
+sys.path.append("/path/to/visualization.py directory")<br/>
 
-from performance import entropy_process
-from performance import clonality_correlation
+from performance import entropy_process<br/>
+from performance import clonality_correlation<br/>
 
-from visualization import rc_umap
-from visualization import res_plot
+from visualization import rc_umap<br/>
+from visualization import res_plot<br/>
 
 
 #### standard scanpy object<br/>
