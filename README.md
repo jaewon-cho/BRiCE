@@ -5,6 +5,8 @@ Relevant paper: Benchmarking of predicting the responding cells upon perturbatio
 
 Citation: not yet<br/>
 
+<img src="/BRiCE/fig1.png" width="600"/>
+
 ##
 ### Folder description<br/>
 BRiCE: contains functions for BRiCE<br/>
