@@ -13,6 +13,11 @@ manuscrip_methods: scripts used for the manuscript<br/>
 
 ##
 ### Tutorial<br/><br/>
+Response Classification (RC): how well the method can distinguish the responding cells against non-responding cells<br/>
+Detail: Normalized Shannon entropy, adapted from BatchBench, was used to distinguish between clonally expanded cells and singlets in perturbed samples. The kNN was calculated for each cell using a predefined neighbor graph (‘distances’ metric from sc.pp.neighbors). Normalized Shannon entropy was calculated for each cell using kNN. A k value of 30 was used for the analysis.
+
+Response effect size (Res): how well the method can quantify the responsiveness<br/>
+Detail: The Res was determined only for clonally expanded cells in the perturbed samples. Average clonality was measured using the clonality from kNN (k = 5) for each cell. Spearman correlation coefficient (SCC) was measured between the clonality of a given cell and the mean clonality from kNN. At least 50 clonally expanded cells were required to measure the Res.
 
 #### Preprocess<br/>
 R<br/>
@@ -49,8 +54,15 @@ import seaborn as sns<br/>
 import matplotlib.pyplot as plt<br/>
 import glob<br/>
 
-sys.path.append("/path/to/performance.py")<br/>
-sys.path.append("/path/to/visualization.py")<br/>
+sys.path.append("/path/to/performance.py directory")
+sys.path.append("/path/to/visualization.py directory")
+
+from performance import entropy_process
+from performance import clonality_correlation
+
+from visualization import rc_umap
+from visualization import res_plot
+
 
 #### standard scanpy object<br/>
 
@@ -58,12 +70,12 @@ adata = sc.read_h5ad("bcr_vaccine_hvg_only.h5ad")<br/>
 obj1 = adata[(adata.obs["condition"] == "perturb")]<br/>
 result = entropy_process(obj1, "expand", latent = None)<br/>
 result.mean()<br/>
-#0.05934534403705289<br/>
+#0.06114510814153887<br/>
 
 obj = adata[(adata.obs["condition"] == "perturb") & (adata.obs["expand"] == "yes")]<br/>
 result = clonality_correlation(obj, k=5, latent = None)<br/>
 result[0]<br/>
-#0.06120139489080349<br/>
+#0.1753592542319167<br/>
 
 rc_umap(adata, "test", "X_umap", need_neighbor = False)<br/>
 res_plot(adata, "test", latent = None)<br/>
@@ -83,7 +95,7 @@ result.mean()<br/>
 obj = adata[(adata.obs["condition"] == "perturb") & (adata.obs["expand"] == "yes")]<br/>
 result = clonality_correlation(obj, k=5, latent = None)<br/>
 result[0]<br/>
-#0.018688870657997153<br/>
+#0.14549734776512335<br/>
 
 rc_umap(adata, "cpa_perturb_only", "X_umap", need_neighbor = True)<br/>
 res_plot(adata, "cpa_perturb_only", latent = None)<br/>
