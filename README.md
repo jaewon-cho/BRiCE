@@ -58,6 +58,7 @@ import glob<br/>
 
 sys.path.append("/path/to/performance.py directory")<br/>
 sys.path.append("/path/to/visualization.py directory")<br/>
+#Insdie BRiCE folder<br/><br/>
 
 from performance import entropy_process<br/>
 from performance import clonality_correlation<br/>
